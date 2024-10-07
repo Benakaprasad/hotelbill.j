@@ -352,8 +352,6 @@ class hotel
                 double sum3=total22+total23+total24+total25;
                 System.out.println("total bill for salads"+sum3);
                 break;
-                break;
-                
                 default:                
                 System.out.println("invalid choice");
                 break;
