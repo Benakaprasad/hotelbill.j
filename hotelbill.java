@@ -6,19 +6,18 @@ class hotel
     {
       Scanner in=new Scanner(System.in);
       int ch;
-      
-      do
+    do
       {
-        system.out.println("\t\t\t\t\t\t\tWELCOME TO SAGAR RESTAURANT\t\t\t\t\t");
-        system.out.println("******************");
-        system.out.println("enter 1 for menu");
-        system.out.println("enter 2 for placing the order");
-        system.out.println("enter 3 for service time");
-        system.out.println("enter 4 billing");
-        system.out.println("enter 5 for feedback");
-        system.out.println("enter 6 for exit");
-        system.out.println("enter your choice\n\n");
-        ch=in.nextline();
+        System.out.println("\t\t\t\t\t\t\tWELCOME TO SAGAR RESTAURANT\t\t\t\t\t");
+        System.out.println("******************");
+        System.out.println("enter 1 for menu");
+        System.out.println("enter 2 for placing the order");
+        System.out.println("enter 3 for service time");
+        System.out.println("enter 4 billing");
+        System.out.println("enter 5 for feedback");
+        System.out.println("enter 6 for exit");
+        System.out.println("enter your choice");
+        ch=in.nextInt();
         switch(ch)
         {
           case 1:
@@ -370,16 +369,59 @@ class hotel
         }
         case 4:
         {
+            float gst;float totalg;
+            double total,sum,sum1,sum2,sum3;
             System.out.println("\t\t\t\t\t\tBILLING\t\t\t\t\t\t");
-            System.out.println("");    
-                 
-                
-        
-
-                                
-
-                                            
-
-        
-    }
+            System.out.println("**************************************************); 
+            System.out.println("total for starters is:",+total);  
+            System.out.println("total for main food is:",+sum); 
+            System.out.println("total for curries is:",+sum1);      
+            System.out.println("total for desserts is:",+sum2);    
+            System.out.println("total for salads is:",+sum3);
+            System.out.println("**************************************************);
+            double totalmeg=total+sum+sum1+sum2+sum3;
+            if(totalmeg<1000)
+            {
+              gst=totalmeg*0;
+                totalg=totalmeg+gst;
+            } 
+            else if(totalmeg>=1000 && totalmeg<=2499)
+            {
+              gst=totalmeg*0.12;
+                totalg=totalmeg+gst;
+            }
+            else if(totalmeg>=2500 && totalmeg<=7499)
+            {
+                gst=totalmeg*0.18;
+                totalg=totalmeg+gst;
+            }
+           else
+            {
+              gst=totalmeg*0.28;
+                totalg=totalmeg+gst;
+            }
+            System.out.println("total bill is:",+totalg);
+break;
+        }
+            case 5:
+                {
+                    System.out.println("feedback:please enter your feedback:");
+                    string feedback=in.next();
+                    System.out.println("thank you for your feedback:"+feedback);
+                    break;
+                }
+            case 6:
+                {
+System.out.println("thank you for visiting sagar restaurant :)");
+                break;
+                }
+            default:
+                System.out.println("invalid choice please try again");
+                break;
+        }
+      }
+        }
+while(ch!=6)l;
+        }
 }
+
