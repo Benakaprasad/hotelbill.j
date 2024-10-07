@@ -356,7 +356,22 @@ class hotel
                 System.out.println("invalid choice");
                 break;
           }   
-              
+           break;
+        }
+        case 3:
+        {
+            System.out.println("thank you for choosing the food items");
+            System.out.println("service time for main food is:25mins");
+            System.out.println("service time for curries is:18mins");
+            System.out.println("service time for starters is:20mins");
+            System.out.println("service time for desserts is:8mins");
+            System.out.println("service time for salads is:2mins");
+            break;
+        }
+        case 4:
+        {
+            System.out.println("\t\t\t\t\t\tBILLING\t\t\t\t\t\t");
+            System.out.println("");    
                  
                 
         
