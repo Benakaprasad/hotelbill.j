@@ -78,19 +78,19 @@ class hotel
             switch(size)
             {
                 case 1:
-                System.out.println("chicken manchow soup:");
+                System.out.println("you have odered chicken manchow soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total1=soup1*quantity;
                 break;
                 case 2:
-                System.out.println("sweet corn chicken soup:");
+                System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total2=soup2*quantity;
                 break;
                 case 3:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total3=soup3*quantity;
@@ -120,61 +120,61 @@ class hotel
              switch(size1)
             {
                 case 1:
-                System.out.println("chicken manchow soup:");
+                System.out.println("you have ordered chicken manchow soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total4=item1*quantity;
                 break;
                 case 2:
-                System.out.println("sweet corn chicken soup:");
+                System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total5=item2*quantity;
                 break;
                 case 3:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total6=item3*quantity;
                 break;
                 case 4:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total7=item4*quantity;
                 break;
                 case 5:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total8=item5*quantity;
                 break;
                 case 6:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total9=item6*quantity;
                 break;
                 case 7:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total10=item7*quantity;
                 break;
                 case 8:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total11=item8*quantity;
                 break;
                 case 9:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total12=item9*quantity;
                 break;
                 case 10:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total13=item10*quantity;
@@ -202,49 +202,49 @@ class hotel
              switch(size2)
             {
                 case 1:
-                System.out.println("chicken manchow soup:");
+                System.out.println("you have ordered chicken manchow soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total14=item11*quantity;
                 break;
                 case 2:
-                System.out.println("sweet corn chicken soup:");
+                System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total15=item12*quantity;
                 break;
                 case 3:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total16=item13*quantity;
                 break;
                 case 4:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total17=item14*quantity;
                 break;
                 case 5:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total18=item15*quantity;
                 break;
                 case 6:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total19=item16*quantity;
                 break;
                 case 7:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total20=item17*quantity;
                 break;
                 case 8:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total21=item18*quantity;
@@ -270,37 +270,37 @@ class hotel
              switch(size3)
             {
                 case 1:
-                System.out.println("chicken manchow soup:");
+                System.out.println("you have ordered chicken manchow soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total22=item19*quantity;
                 break;
                 case 2:
-                System.out.println("sweet corn chicken soup:");
+                System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total23=item20*quantity;
                 break;
                 case 3:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total24=item21*quantity;
                 break;
                 case 4:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total25=item22*quantity;
                 break;
                 case 5:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total26=item23*quantity;
                 break;
                 case 6:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total27=item24*quantity;
@@ -324,25 +324,25 @@ class hotel
              switch(size4)
             {
                 case 1:
-                System.out.println("chicken manchow soup:");
+                System.out.println("you have ordered chicken manchow soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total28=item25*quantity;
                 break;
                 case 2:
-                System.out.println("sweet corn chicken soup:");
+                System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total29=item26*quantity;
                 break;
                 case 3:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total30=item27*quantity;
                 break;
                 case 4:
-                System.out.println("hot and sour chicken soup:");
+                System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total31=item28*quantity;
@@ -421,7 +421,7 @@ System.out.println("thank you for visiting sagar restaurant :)");
         }
       }
         }
-while(ch!=6)l;
+while(ch!=6);
         }
 }
 
