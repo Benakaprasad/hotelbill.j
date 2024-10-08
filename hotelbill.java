@@ -7,8 +7,9 @@ class Hotel
       int ch;
     do
       {
-        System.out.println("\t\t\t\t\t\t\tWELCOME TO SAGAR RESTAURANT\t\t\t\t\t");
-        System.out.println("******************");
+        System.out.println("****************************************");
+        System.out.println("\t\t\tWELCOME TO SAGAR RESTAURANT\t\t\t\t\t");
+        System.out.println("****************************************");
         System.out.println("enter 1 for menu");
         System.out.println("enter 2 for placing the order");
         System.out.println("enter 3 for service time");
@@ -16,64 +17,70 @@ class Hotel
         System.out.println("enter 5 for feedback");
         System.out.println("enter 6 for exit");
         System.out.println("enter your choice");
+         System.out.println("****************************************");
         ch=in.nextInt();
         switch(ch)
         {
           case 1:
           {
-          System.out.println("MENU");
+          System.out.println("MENU:");
+           System.out.println("*************");
           System.out.println("STARTERS");
           System.out.println("*************");
-          System.out.println("1.CHICKEN MANCHOW SOUP-----------------\t\t100");
-          System.out.println("2.SWEET CORN CHICKEN SOUP-----------------\t\t110");
+          System.out.println("1.CHICKEN MANCHOW SOUP-----------------\t\t\t\t100");
+          System.out.println("2.SWEET CORN CHICKEN SOUP-----------------\t\t\t110");
           System.out.println("3.HOT AND SOUR CHICKEN SOUP-----------------\t\t110");
+           System.out.println("*************");
           System.out.println("MAIN FOOD");
           System.out.println("*************");
-          System.out.println("1.BUTTER ROTI-----------------\t\t30");
-          System.out.println("2.BUTTER KHULCHA-----------------\t\t35");
-          System.out.println("3.BUTTER CHICKEN-----------------\t\t165");
-          System.out.println("4.PALAK PANEER-----------------\t\t120");
-          System.out.println("5.CHICKEN BIRIYANI-----------------\t\t145");
-          System.out.println("6.MUTTON BIRIYANI-----------------\t\t130");
-          System.out.println("7.CHICKEN CHOPS-----------------\t\t165");
-          System.out.println("8.CHCIKEN PEPPER FRY-----------------\t\t120");
-          System.out.println("9.CHICKEN ROAST-----------------\t\t145");
-          System.out.println("10.CHICKEN TANDOORI-----------------\t\t130");
+          System.out.println("1.BUTTER ROTI-----------------\t\t\t\t\t\t30");
+          System.out.println("2.BUTTER KHULCHA-----------------\t\t\t\t\t35");
+          System.out.println("3.BUTTER CHICKEN-----------------\t\t\t\t\t165");
+          System.out.println("4.PALAK PANEER-----------------\t\t\t\t\t\t120");
+          System.out.println("5.CHICKEN BIRIYANI-----------------\t\t\t\t\t145");
+          System.out.println("6.MUTTON BIRIYANI-----------------\t\t\t\t\t130");
+          System.out.println("7.CHICKEN CHOPS-----------------\t\t\t\t\t165");
+          System.out.println("8.CHCIKEN PEPPER FRY-----------------\t\t\t\t120");
+          System.out.println("9.CHICKEN ROAST-----------------\t\t\t\t\t145");
+          System.out.println("10.CHICKEN TANDOORI-----------------\t\t\t\t130");
+           System.out.println("*************");
           System.out.println("CURRIES");
           System.out.println("*************");
-          System.out.println("1.PARADISE SPECIAL CHICKEN-----------------\t\t130");
-          System.out.println("2.CHICKEN TIKKA MASALA-----------------\t\t135");
-          System.out.println("3.KADAI CHICKEN-----------------\t\t165");
-          System.out.println("4.MURGH MUSALLAM-----------------\t\t120");
-          System.out.println("5.CHICKEN NAWABI-----------------\t\t145");
-          System.out.println("6.CHICKEN KANDHARI-----------------\t\t130");
-          System.out.println("7.MUTTON ROGAN JOSH-----------------\t\t165");
-          System.out.println("8.KADAI GOSHT-----------------\t\t120");
+          System.out.println("1.PARADISE SPECIAL CHICKEN-----------------\t\t\t130");
+          System.out.println("2.CHICKEN TIKKA MASALA-----------------\t\t\t\t135");
+          System.out.println("3.KADAI CHICKEN-----------------\t\t\t\t\t165");
+          System.out.println("4.MURGH MUSALLAM-----------------\t\t\t\t\t120");
+          System.out.println("5.CHICKEN NAWABI-----------------\t\t\t\t\t145");
+          System.out.println("6.CHICKEN KANDHARI-----------------\t\t\t\t\t130");
+          System.out.println("7.MUTTON ROGAN JOSH-----------------\t\t\t\t165");
+          System.out.println("8.KADAI GOSHT-----------------\t\t\t\t\t\t120");
+           System.out.println("*************");
           System.out.println("DESSERTS");
           System.out.println("*************");
-          System.out.println("1.CHOCOLATE-----------------\t\t70");
-          System.out.println("2.BUTTER SCOTCH-----------------\t\t95");
+          System.out.println("1.CHOCOLATE-----------------\t\t\t\t\t\t\t70");
+          System.out.println("2.BUTTER SCOTCH-----------------\t\t\t\t\t\t95");
           System.out.println("3.VANILLA WITH HOT CHOCOLATE SAUCE-----------------\t\t75");
-          System.out.println("4.TRIPLE SUNDAE-----------------\t\t80");
+          System.out.println("4.TRIPLE SUNDAE-----------------\t\t\t\t\t\t80");
           System.out.println("5.BROWNEY WITH ICE CREAM/CHOCOLATE-----------------\t\t60");
-          System.out.println("6.TOOTI FRUTTY-----------------\t\t55");
+          System.out.println("6.TOOTI FRUTTY-----------------\t\t\t\t\t\t\t55");
+           System.out.println("*************");
           System.out.println("SALADS");
           System.out.println("*************");
-          System.out.println("1.FRESH GARDEN SALAD-----------------\t\t30");
-          System.out.println("2.GREEK SALAD-----------------\t\t35");
-          System.out.println("3.RUSSIAN SALAD-----------------\t\t40");
-          System.out.println("4.TOSSED GREEN SALAD-----------------\t\t20");
+          System.out.println("1.FRESH GARDEN SALAD-----------------\t\t\t\t30");
+          System.out.println("2.GREEK SALAD-----------------\t\t\t\t\t\t35");
+          System.out.println("3.RUSSIAN SALAD-----------------\t\t\t\t\t40");
+          System.out.println("4.TOSSED GREEN SALAD-----------------\t\t\t\t20");
           break;
          }
          case 2:
-         {
-            double total1=0,total2=0,total3=0; double totalstarters=0;
+         {           
+            double total1=0,total2=0,total3=0; double totalstarters=0; 
             int soup1=100;
             int soup2=110;
             int soup3=110;
             System.out.println("enter your number of choice from starters:");
             System.out.println("enter 4 for total bill for starters");
-            int size=in.nextInt();
+          int size=in.nextInt();
             switch(size)
             {
                 case 1:
@@ -81,27 +88,21 @@ class Hotel
                 System.out.println("enter the quantity:");
                 int quantity1=in.nextInt();
                 total1=soup1*quantity1;
-                break;
                 case 2:
                 System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity2=in.nextInt();
                 total2=soup2*quantity2;
-                break;
                 case 3:
                 System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity3=in.nextInt();
                 total3=soup3*quantity3;
-                break;
                 case 4:
                 totalstarters=total1+total2+total3;
                 System.out.println("starters bill is:"+totalstarters);
-                break;
-                default:
-                System.out.println("invalid chocie");
-                break;
             }
+           
             double total4=0,total5=0,total6=0,total7=0,total8=0,total9=0,total10=0,total11=0,total12=0,total13=0;double totalmainmenu=0;
             int item1=30;
             int item2=35;
