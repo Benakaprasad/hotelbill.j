@@ -312,7 +312,7 @@ class Hotel
                 System.out.println("invalid choice");
                 break;
           }      
-             double total28=0,total29=0,total3-=0,total31=0;double totalsalads=0;
+             double total28=0,total29=0,total30=0,total31=0;double totalsalads=0;
             int item25=30;
             int item26=35;
             int item27=40;
