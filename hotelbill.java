@@ -25,45 +25,45 @@ class hotel
           System.out.println("MENU");
           System.out.println("STARTERS");
           System.out.println("*************");
-          System.out.println("1.CHICKEN MANCHOW SOUP-----------------\t\t100\-");
-          System.out.println("2.SWEET CORN CHICKEN SOUP-----------------\t\t110\-");
-          System.out.println("3.HOT AND SOUR CHICKEN SOUP-----------------\t\t110\-");
+          System.out.println("1.CHICKEN MANCHOW SOUP-----------------\t\t100\-\t");
+          System.out.println("2.SWEET CORN CHICKEN SOUP-----------------\t\t110\-\t");
+          System.out.println("3.HOT AND SOUR CHICKEN SOUP-----------------\t\t110\-\t");
           System.out.println("MAIN FOOD");
           System.out.println("*************");
-          System.out.println("1.BUTTER ROTI-----------------\t\t30\-");
-          System.out.println("2.BUTTER KHULCHA-----------------\t\t35\-");
-          System.out.println("3.BUTTER CHICKEN-----------------\t\t165\-");
-          System.out.println("4.PALAK PANEER-----------------\t\t$120\-");
-          System.out.println("5.CHICKEN BIRIYANI-----------------\t\t145\-");
-          System.out.println("6.MUTTON BIRIYANI-----------------\t\t130\-");
-          System.out.println("7.CHICKEN CHOPS-----------------\t\t165\-");
-          System.out.println("8.CHCIKEN PEPPER FRY-----------------\t\t$120\-");
-          System.out.println("9.CHICKEN ROAST-----------------\t\t145\-");
-          System.out.println("10.CHICKEN TANDOORI-----------------\t\t130\-");
+          System.out.println("1.BUTTER ROTI-----------------\t\t30\-\t");
+          System.out.println("2.BUTTER KHULCHA-----------------\t\t35\-\t");
+          System.out.println("3.BUTTER CHICKEN-----------------\t\t165\-\t");
+          System.out.println("4.PALAK PANEER-----------------\t\t$120\-\t");
+          System.out.println("5.CHICKEN BIRIYANI-----------------\t\t145\-\t");
+          System.out.println("6.MUTTON BIRIYANI-----------------\t\t130\-\t");
+          System.out.println("7.CHICKEN CHOPS-----------------\t\t165\-\t");
+          System.out.println("8.CHCIKEN PEPPER FRY-----------------\t\t$120\-\t");
+          System.out.println("9.CHICKEN ROAST-----------------\t\t145\-\t");
+          System.out.println("10.CHICKEN TANDOORI-----------------\t\t130\-\t");
           System.out.println("CURRIES");
           System.out.println("*************");
-          System.out.println("1.PARADISE SPECIAL CHICKEN-----------------\t\t130\-");
-          System.out.println("2.CHICKEN TIKKA MASALA-----------------\t\t135\-");
-          System.out.println("3.KADAI CHICKEN-----------------\t\t165\-");
-          System.out.println("4.MURGH MUSALLAM-----------------\t\t$120\-");
-          System.out.println("5.CHICKEN NAWABI-----------------\t\t145\-");
-          System.out.println("6.CHICKEN KANDHARI-----------------\t\t130\-");
-          System.out.println("7.MUTTON ROGAN JOSH-----------------\t\t165\-");
-          System.out.println("8.KADAI GOSHT-----------------\t\t$120\-");
+          System.out.println("1.PARADISE SPECIAL CHICKEN-----------------\t\t130\-\t");
+          System.out.println("2.CHICKEN TIKKA MASALA-----------------\t\t135\-\t");
+          System.out.println("3.KADAI CHICKEN-----------------\t\t165\-\t");
+          System.out.println("4.MURGH MUSALLAM-----------------\t\t$120\-\t");
+          System.out.println("5.CHICKEN NAWABI-----------------\t\t145\-\t");
+          System.out.println("6.CHICKEN KANDHARI-----------------\t\t130\-\t");
+          System.out.println("7.MUTTON ROGAN JOSH-----------------\t\t165\-\t");
+          System.out.println("8.KADAI GOSHT-----------------\t\t$120\-\t");
           System.out.println("DESSERTS");
           System.out.println("*************");
-          System.out.println("1.CHOCOLATE-----------------\t\t70\-");
-          System.out.println("2.BUTTER SCOTCH-----------------\t\t$95\-");
-          System.out.println("3.VANILLA WITH HOT CHOCOLATE SAUCE-----------------\t\t75\-");
-          System.out.println("4.TRIPLE SUNDAE-----------------\t\t80\-");
-          System.out.println("5.BROWNEY WITH ICE CREAM/CHOCOLATE-----------------\t\t60\-");
-          System.out.println("6.TOOTI FRUTTY-----------------\t\t55\-");
+          System.out.println("1.CHOCOLATE-----------------\t\t70\-\t");
+          System.out.println("2.BUTTER SCOTCH-----------------\t\t$95\-\t");
+          System.out.println("3.VANILLA WITH HOT CHOCOLATE SAUCE-----------------\t\t75\-\t");
+          System.out.println("4.TRIPLE SUNDAE-----------------\t\t80\-\t");
+          System.out.println("5.BROWNEY WITH ICE CREAM/CHOCOLATE-----------------\t\t60\-\t");
+          System.out.println("6.TOOTI FRUTTY-----------------\t\t55\-\t");
           System.out.println("SALADS");
           System.out.println("*************");
-          System.out.println("1.FRESH GARDEN SALAD-----------------\t\t30");
-          System.out.println("2.GREEK SALAD-----------------\t\t35");
-          System.out.println("3.RUSSIAN SALAD-----------------\t\t40");
-          System.out.println("4.TOSSED GREEN SALAD-----------------\t\t20");
+          System.out.println("1.FRESH GARDEN SALAD-----------------\t\t30\-\t");
+          System.out.println("2.GREEK SALAD-----------------\t\t35\-\t");
+          System.out.println("3.RUSSIAN SALAD-----------------\t\t40\-\t");
+          System.out.println("4.TOSSED GREEN SALAD-----------------\t\t20\-\t");
           break;
          }
          case 2:
@@ -96,7 +96,7 @@ class hotel
                 total3=soup3*quantity;
                 break;
                 case 4:
-                double total=total1+total2+total3;
+                double totalstarters=total1+total2+total3;
                 System.out.println("starters bill is:"+total);
                 break;
                 default:
@@ -120,67 +120,67 @@ class hotel
              switch(size1)
             {
                 case 1:
-                System.out.println("you have ordered chicken manchow soup:");
+                System.out.println("you have ordered butter roti:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total4=item1*quantity;
                 break;
                 case 2:
-                System.out.println("you have ordered sweet corn chicken soup:");
+                System.out.println("you have ordered butter khulcha:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total5=item2*quantity;
                 break;
                 case 3:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered butter chicken:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total6=item3*quantity;
                 break;
                 case 4:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered palak paneer:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total7=item4*quantity;
                 break;
                 case 5:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered chicken biriyani:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total8=item5*quantity;
                 break;
                 case 6:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered mutton biriyani:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total9=item6*quantity;
                 break;
                 case 7:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered chicken chops:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total10=item7*quantity;
                 break;
                 case 8:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered chicken pepper fry:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total11=item8*quantity;
                 break;
                 case 9:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered chicken roast:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total12=item9*quantity;
                 break;
                 case 10:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered chicken tandoori:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total13=item10*quantity;
                 break;
                 case 11:
-                double sum=total4+total5+total6+total7+total8+total9+total10+total11+total12+total13;
+                double totalmainmenu=total4+total5+total6+total7+total8+total9+total10+total11+total12+total13;
                 System.out.println("total bill for main food"+sum);
                 break;
                 default:                
@@ -202,55 +202,55 @@ class hotel
              switch(size2)
             {
                 case 1:
-                System.out.println("you have ordered chicken manchow soup:");
+                System.out.println("you have ordered paradise special chicken:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total14=item11*quantity;
                 break;
                 case 2:
-                System.out.println("you have ordered sweet corn chicken soup:");
+                System.out.println("you have ordered chicken tikka masala:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total15=item12*quantity;
                 break;
                 case 3:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered kadai chicken:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total16=item13*quantity;
                 break;
                 case 4:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered murgh musallam:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total17=item14*quantity;
                 break;
                 case 5:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have chciken nawabi:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total18=item15*quantity;
                 break;
                 case 6:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered chicken kandhari:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total19=item16*quantity;
                 break;
                 case 7:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered mutton rogan josh:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total20=item17*quantity;
                 break;
                 case 8:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered kadai gohst:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total21=item18*quantity;
                 break;
                 case 9:
-                double sum1=total14+total15+total16+total17+total18+total19+total20+total21;
+                double totalcurries=total14+total15+total16+total17+total18+total19+total20+total21;
                 System.out.println("total bill for main food"+sum1);
                 break;
                 default:                
@@ -270,43 +270,43 @@ class hotel
              switch(size3)
             {
                 case 1:
-                System.out.println("you have ordered chicken manchow soup:");
+                System.out.println("you have ordered chocolate:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total22=item19*quantity;
                 break;
                 case 2:
-                System.out.println("you have ordered sweet corn chicken soup:");
+                System.out.println("you have ordered butter scotch:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total23=item20*quantity;
                 break;
                 case 3:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered vanilla with hot chocolate sauce:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total24=item21*quantity;
                 break;
                 case 4:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered triple sundae:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total25=item22*quantity;
                 break;
                 case 5:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered browney with ice cream/chocolate:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total26=item23*quantity;
                 break;
                 case 6:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered tooti frutty:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total27=item24*quantity;
                 break;
                 case 7:
-                double sum2=total22+total23+total24+total25+total26+total27;
+                double totaldesserts=total22+total23+total24+total25+total26+total27;
                 System.out.println("total bill for main food"+sum2);
                 break;
                 default:                
@@ -324,31 +324,31 @@ class hotel
              switch(size4)
             {
                 case 1:
-                System.out.println("you have ordered chicken manchow soup:");
+                System.out.println("you have ordered fresh green salad:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total28=item25*quantity;
                 break;
                 case 2:
-                System.out.println("you have ordered sweet corn chicken soup:");
+                System.out.println("you have ordered greek salad:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total29=item26*quantity;
                 break;
                 case 3:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered russian salad:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total30=item27*quantity;
                 break;
                 case 4:
-                System.out.println("you have ordered hot and sour chicken soup:");
+                System.out.println("you have ordered tossed green salad:");
                 System.out.println("enter the quantity:");
                 int quantity=in.nextInt();
                 total31=item28*quantity;
                 break;
                 case 5:
-                double sum3=total22+total23+total24+total25;
+                double totalsalads=total22+total23+total24+total25;
                 System.out.println("total bill for salads"+sum3);
                 break;
                 default:                
@@ -373,13 +373,13 @@ class hotel
             double total,sum,sum1,sum2,sum3;
             System.out.println("\t\t\t\t\t\tBILLING\t\t\t\t\t\t");
             System.out.println("**************************************************); 
-            System.out.println("total for starters is:",+total);  
-            System.out.println("total for main food is:",+sum); 
-            System.out.println("total for curries is:",+sum1);      
-            System.out.println("total for desserts is:",+sum2);    
-            System.out.println("total for salads is:",+sum3);
+            System.out.println("total for starters is:",+totalstarters);  
+            System.out.println("total for main food is:",+totalmainmenu); 
+            System.out.println("total for curries is:",+totalcurries);      
+            System.out.println("total for desserts is:",+totaldesserts);    
+            System.out.println("total for salads is:",+totalsalads);
             System.out.println("**************************************************);
-            double totalmeg=total+sum+sum1+sum2+sum3;
+            double totalmeg=totalstarters+totalmainmenu+totalcurries+totaldesserts+totalsalads;
             if(totalmeg<1000)
             {
               gst=totalmeg*0;
