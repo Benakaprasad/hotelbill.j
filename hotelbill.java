@@ -88,19 +88,26 @@ class Hotel
                 System.out.println("enter the quantity:");
                 int quantity1=in.nextInt();
                 total1=soup1*quantity1;
+                break;
                 case 2:
                 System.out.println("you have ordered sweet corn chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity2=in.nextInt();
                 total2=soup2*quantity2;
+                break;
                 case 3:
                 System.out.println("you have ordered hot and sour chicken soup:");
                 System.out.println("enter the quantity:");
                 int quantity3=in.nextInt();
                 total3=soup3*quantity3;
+                break;
                 case 4:
                 totalstarters=total1+total2+total3;
                 System.out.println("starters bill is:"+totalstarters);
+                break;
+                default:
+                System.out.println("invalid choice");
+                break;
             }
            
             double total4=0,total5=0,total6=0,total7=0,total8=0,total9=0,total10=0,total11=0,total12=0,total13=0;double totalmainmenu=0;
