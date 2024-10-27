@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Hotel
 {
-    public static void main(String argsp[])
+    public static void main(String args[])
     {
         Scanner in=new Scanner(System.in);
       int ch;
